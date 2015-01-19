@@ -9,7 +9,7 @@ We want to launch an Ubuntu 14.04 VM with Chef Development Kit and Vagrant prein
 
 ## Usage
 
-    $ vagrant up greenalto/ubuntu-14.04-chefdk --provider virtualbox
+		$ vagrant up greenalto/ubuntu-14.04-chefdk --provider virtualbox
 		$ vagrant ssh
 
 Check everything works as expected: 
@@ -34,17 +34,17 @@ Those are the steps to build manually the lab VM.
 
 Boot it up: 
 
-    $ vagrant up --provider virtualbox
+		$ vagrant up --provider virtualbox
 
 Connect to it: 
 
-    $ vagrant ssh
+		$ vagrant ssh
 
 #### Install Stuff
 
-    $ sudo apt-get update
-    $ sudo apt-get upgrade -y
-    $ sudo apt-get install vim git build-essential htop -y
+		$ sudo apt-get update
+		$ sudo apt-get upgrade -y
+		$ sudo apt-get install vim git build-essential htop -y
 
 #### Install Chef-DK
 
@@ -56,7 +56,7 @@ Find the current version here: [Chef Development Kit Home](https://downloads.get
 
 #### Configure Chef-DK
 
-    $ echo 'eval "$(chef shell-init bash)"' >> ~/.bash_profile
+		$ echo 'eval "$(chef shell-init bash)"' >> ~/.bash_profile
 
 #### Install Vagrant 
 
